@@ -8,4 +8,9 @@ describe Bank do
     expect(bank.balance).to eq(0)
   end
 
+  it 'can add a deposit' do
+    bank.deposit(1000)
+    expect(bank.balance).to eq(1000)
+  end
+
 end
