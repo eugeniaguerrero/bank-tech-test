@@ -14,4 +14,8 @@ class Bank
     @balance -= amount
   end
 
+  private
+
+  attr_writer :balance
+
 end
